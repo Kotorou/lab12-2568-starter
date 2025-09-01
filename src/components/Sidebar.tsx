@@ -42,16 +42,16 @@ export default function Sidebar() {
         </Text> */}
       </Box>
       {/* แสดงผู้ใช้งาน */}
-      <Group align="center">
-  <Box p="md" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-    <Indicator color="gray" position="bottom-end" size={10} offset={6}>
+      <Group >
+  <Box p={"xs"} style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+    <Indicator color="red" position="bottom-end" size={10} offset={6}  >
       <Avatar
         size="md"
-        radius="lg"
+        radius="xl"
         src="public/me.jpg"
       />
     </Indicator>
-    <Text>User: Kota : Student</Text>
+    <Text fw={500}>User: Kota : Student</Text>
   </Box>
 </Group>
 
