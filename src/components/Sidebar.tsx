@@ -48,7 +48,7 @@ export default function Sidebar() {
       <Avatar
         size="md"
         radius="xl"
-        src="public/me.jpg"
+        src="/me.jpg"
       />
     </Indicator>
     <Text fw={500}>User: Kota : Student</Text>
